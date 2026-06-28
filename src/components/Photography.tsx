@@ -3,30 +3,80 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { SectionTag } from "./About";
 
-import t1 from "@/assets/photo-travel-1.jpg";
-import t2 from "@/assets/photo-travel-2.jpg";
-import t3 from "@/assets/photo-travel-3.jpg";
-import f1 from "@/assets/photo-food-1.jpg";
-import f2 from "@/assets/photo-food-2.jpg";
-import p1 from "@/assets/photo-product-1.jpg";
-import p2 from "@/assets/photo-product-2.jpg";
-import por1 from "@/assets/photo-portrait-1.jpg";
-import s1 from "@/assets/photo-street-1.jpg";
-import l1 from "@/assets/photo-lifestyle-1.jpg";
-
 type Photo = { src: string; cat: string; title: string; w: number; h: number };
 
+// Replace these URLs with your own photo links when you want to swap images.
 const photos: Photo[] = [
-  { src: t1, cat: "Travel", title: "Cloud Peak", w: 1024, h: 1280 },
-  { src: f1, cat: "Food", title: "Carbonara", w: 1024, h: 1024 },
-  { src: p1, cat: "Products", title: "Chronograph", w: 1024, h: 1024 },
-  { src: por1, cat: "Portraits", title: "Quiet Light", w: 1024, h: 1280 },
-  { src: s1, cat: "Street", title: "Neon Rain", w: 1024, h: 768 },
-  { src: t2, cat: "Travel", title: "Temple Burn", w: 1024, h: 768 },
-  { src: l1, cat: "Lifestyle", title: "Morning Ritual", w: 1024, h: 1280 },
-  { src: f2, cat: "Food", title: "Honey Drip", w: 1024, h: 1280 },
-  { src: p2, cat: "Products", title: "Azure", w: 1024, h: 1280 },
-  { src: t3, cat: "Travel", title: "Solitude", w: 1024, h: 768 },
+  {
+    src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    cat: "Travel",
+    title: "Cloud Peak",
+    w: 1024,
+    h: 1280,
+  },
+  {
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662292/8_edngfu.png",
+    cat: "Food",
+    title: "Honey Chilli Potatoes",
+    w: 1024,
+    h: 1024,
+  },
+  {
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661366/12_ghz9pw.png",
+    cat: "Products",
+    title: "Oils & Essences",
+    w: 1024,
+    h: 1024,
+  },
+  {
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661517/copy_of_dsc03464_1_usf8uz.jpg",
+    cat: "Portraits",
+    title: "Quiet Light",
+    w: 1024,
+    h: 1280,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1200&q=80",
+    cat: "Street",
+    title: "Neon Rain",
+    w: 1024,
+    h: 768,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+    cat: "Travel",
+    title: "Temple Burn",
+    w: 1024,
+    h: 768,
+  },
+  {
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661322/C5536.00_00_05_29.Still013.jpg_adbwe6.jpg",
+    cat: "Lifestyle",
+    title: "Morning Ritual",
+    w: 1024,
+    h: 1280,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80",
+    cat: "Food",
+    title: "Honey Drip",
+    w: 1024,
+    h: 1280,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
+    cat: "Products",
+    title: "Azure",
+    w: 1024,
+    h: 1280,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    cat: "Travel",
+    title: "Solitude",
+    w: 1024,
+    h: 768,
+  },
 ];
 
 const cats = ["All", "Travel", "Food", "Products", "Portraits", "Street", "Lifestyle"] as const;
