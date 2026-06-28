@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import LightRays from "./LightRays";
 
 const rotating = [
   "Building Experiences.",
@@ -21,6 +22,21 @@ export function Hero() {
     <section id="top" className="relative flex min-h-screen items-center overflow-hidden pt-24">
       {/* Aurora background */}
       <div className="pointer-events-none absolute inset-0 aurora-bg" />
+      <LightRays
+        raysOrigin="top-center"
+        raysColor="#ffffff"
+        raysSpeed={1}
+        lightSpread={0.5}
+        rayLength={3}
+        followMouse={true}
+        mouseInfluence={0.1}
+        noiseAmount={0}
+        distortion={0}
+        className="opacity-40"
+        pulsating={false}
+        fadeDistance={1}
+        saturation={1}
+      />
       <div
         className="pointer-events-none absolute inset-0 opacity-40"
         style={{
