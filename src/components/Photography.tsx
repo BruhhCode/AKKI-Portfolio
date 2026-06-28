@@ -79,7 +79,7 @@ const photos: Photo[] = [
   },
 ];
 
-const cats = ["All", "Travel", "Food", "Products", "Portraits", "Street", "Lifestyle"] as const;
+const cats = ["All", "Travel", "Food", "Products", "Portraits", "Street", "Lifestyle", "Candles"] as const;
 
 export function Photography() {
   const [cat, setCat] = useState<(typeof cats)[number]>("All");
