@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { SectionTag } from "./About";
 
 const exp = [
-  { y: "2024 — Now", r: "Independent Developer & Photographer", c: "Self-employed", d: "Shipping product UIs for early-stage startups; shooting brand & travel work." },
-  { y: "2023 — 2024", r: "Frontend Developer", c: "Studio (remote)", d: "Led the rebuild of a customer-facing dashboard; cut LCP by 48%." },
-  { y: "2022 — 2023", r: "Junior Developer", c: "Agency", d: "Built marketing sites and landing pages for D2C brands." },
-  { y: "2019 — 2023", r: "B.Tech, Computer Science", c: "University", d: "Foundation in algorithms, systems, and modern web." },
+  { y: "2026 — Now", r: "Independent Developer & Photographer", c: "Self-employed", d: "Shipping product UIs for early-stage startups; shooting brand & travel work." },
+  { y: "2025 — 2026", r: "Web Developer", c: "Studio (remote)", d: "Built marketing sites and landing pages for D2C brands." },
+  { y: "2025 — 2026", r: "Creative Head", c: "Loop Studio India Pvt. Ltd.", d: " Managed a team of designers and developers while leading creative initiatives and planning." },
+  { y: "2022 — 2026", r: "B.Tech, Computer Science", c: "DIT University", d: "Specialized in web development, software engineering, and data science." },
 ];
 
 export function Experience() {

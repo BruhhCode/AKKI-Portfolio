@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import portrait from "@/assets/portrait.jpg";
 
 const timeline = [
-  { y: "2019", t: "Started Computer Science", d: "Began B.Tech in CS — first lines of HTML & CSS." },
   { y: "2021", t: "Picked up the camera", d: "Fell in love with light, frame, and story." },
-  { y: "2022", t: "Shipped first product", d: "Built and launched scalable React applications." },
-  { y: "2024", t: "Brand & travel work", d: "Photographed for brands across India and beyond." },
+  { y: "2022", t: "Started Computer Science", d: "Began B.Tech in CS — first lines of HTML & CSS." },
+  { y: "2024", t: "Shipped first product", d: "Built and launched scalable React applications." },
+  { y: "2025", t: "Brand & travel work", d: "Photographed for brands across India and beyond." },
   { y: "2026", t: "Independent practice", d: "Code by day. Camera by golden hour." },
 ];
 
@@ -39,7 +39,7 @@ export function About() {
                   <div className="text-xs text-muted-foreground">Developer · Photographer</div>
                 </div>
                 <span className="glass rounded-full px-3 py-1 text-[10px] uppercase tracking-widest">
-                  Est. '19
+                  2026
                 </span>
               </div>
             </div>
