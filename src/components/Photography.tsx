@@ -8,7 +8,7 @@ type Photo = { src: string; cat: string; title: string; w: number; h: number };
 // Replace these URLs with your own photo links when you want to swap images.
 const photos: Photo[] = [
   {
-    src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662669/DJI_20260612103516_0583_D_q1u0jb.jpg",
     cat: "Travel",
     title: "Cloud Peak",
     w: 1024,
@@ -36,16 +36,16 @@ const photos: Photo[] = [
     h: 1280,
   },
   {
-    src: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1200&q=80",
-    cat: "Street",
-    title: "Neon Rain",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662857/DSC08343_sn9ko6.jpg",
+    cat: "Products",
+    title: "Clothing",
     w: 1024,
     h: 768,
   },
   {
-    src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662861/DSC09607_qsgyin.jpg",
     cat: "Travel",
-    title: "Temple Burn",
+    title: "DJ ",
     w: 1024,
     h: 768,
   },
@@ -57,21 +57,21 @@ const photos: Photo[] = [
     h: 1280,
   },
   {
-    src: "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662668/DSC01111_ehbfsc.jpg",
     cat: "Food",
-    title: "Honey Drip",
+    title: "Pizza Slice",
     w: 1024,
     h: 1280,
   },
   {
-    src: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80",
-    cat: "Products",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661367/img_4_gzgrvz.png",
+    cat: "Candles",
     title: "Azure",
     w: 1024,
     h: 1280,
   },
   {
-    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    src: "https://res.cloudinary.com/doudcr0tg/image/upload/v1782662670/DSC03605_qsejuq.jpg",
     cat: "Travel",
     title: "Solitude",
     w: 1024,
