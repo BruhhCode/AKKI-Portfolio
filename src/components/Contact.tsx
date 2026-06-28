@@ -59,10 +59,10 @@ export function Contact() {
 
           <div className="space-y-4">
             {[
-              { icon: Mail, l: "Email", v: "hello@akshitsharma.dev", href: "mailto:hello@akshitsharma.dev" },
-              { icon: Github, l: "GitHub", v: "@akshitsharma", href: "#" },
-              { icon: Linkedin, l: "LinkedIn", v: "in/akshitsharma", href: "#" },
-              { icon: Instagram, l: "Instagram", v: "@akshit.frames", href: "#" },
+              { icon: Mail, l: "Email", v: "akshits055@gmail.com", href: "mailto:akshits055@gmail.com" },
+              { icon: Github, l: "GitHub", v: "@BruhhCode", href: "https://github.com/BruhhCode" },
+              { icon: Linkedin, l: "LinkedIn", v: "in/akshit-sharma", href: "https://www.linkedin.com/in/akshit-sharma-715b07278/" },
+              { icon: Instagram, l: "Instagram", v: "@kidfromhimalayas", href: "https://www.instagram.com/kidfromhimalayas/" },
             ].map((s) => (
               <a
                 key={s.l}

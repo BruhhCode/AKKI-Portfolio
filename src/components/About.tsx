@@ -25,7 +25,7 @@ export function About() {
           >
             <div className="group relative overflow-hidden rounded-3xl border border-border bg-card">
               <img
-                src={portrait}
+                src={"https://res.cloudinary.com/doudcr0tg/image/upload/v1782629098/ChatGPT_Image_Jun_28_2026_12_13_27_PM_crioaq.png"}
                 alt="Portrait of Akshit Sharma"
                 loading="lazy"
                 width={896}
