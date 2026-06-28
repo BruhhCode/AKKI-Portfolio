@@ -3,14 +3,14 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { SectionTag } from "./About";
 
-import t1 from "@/assets/photo-travel-1.jpg";
+import t1 from "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661517/copy_of_dsc03464_1_usf8uz.jpg";
 import t2 from "@/assets/photo-travel-2.jpg";
 import t3 from "@/assets/photo-travel-3.jpg";
 import f1 from "@/assets/photo-food-1.jpg";
 import f2 from "@/assets/photo-food-2.jpg";
-import p1 from "@/assets/photo-product-1.jpg";
-import p2 from "@/assets/photo-product-2.jpg";
-import por1 from "@/assets/photo-portrait-1.jpg";
+import p1 from "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661375/img_3_ncdkw8.png";
+import p2 from "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661367/img_4_gzgrvz.png";
+import por1 from "https://res.cloudinary.com/doudcr0tg/image/upload/v1782661364/This_isn_t_just_a_saree_it_s_a_takeover.Heavy_details_effortless_attitude_zero_intention_of_xhd9dq.webp";
 import s1 from "@/assets/photo-street-1.jpg";
 import l1 from "@/assets/photo-lifestyle-1.jpg";
 
