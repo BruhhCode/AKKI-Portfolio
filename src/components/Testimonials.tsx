@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { SectionTag } from "./About";
 
 const items = [
-  { q: "Akshit delivered a portfolio that genuinely felt expensive — fast, beautiful, and on-brand.", a: "Priya R.", r: "Founder, Studio Lumen" },
+  { q: "Akshit consistently brought creativity, professionalism, and attention to detail to every project. His ability to transform ideas into compelling visual content and collaborate effectively with the team made him a valuable contributor. I appreciate his dedication and look forward to seeing his continued growth", a: "Varuna Saini", r: "Founder, Loop Studio India Pvt. Ltd." },
   { q: "The product photos he shot for our launch outperformed our paid creative by 3x.", a: "Vikram S.", r: "Marketing Lead, D2C brand" },
   { q: "Rare to find someone equally fluent in React and a Lightroom panel. Hire him.", a: "Anika M.", r: "Design Director" },
 ];
