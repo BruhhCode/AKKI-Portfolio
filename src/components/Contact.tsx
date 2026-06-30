@@ -84,7 +84,7 @@ export function Contact() {
               </a>
             ))}
             <a
-              href="#"
+              href="https://res.cloudinary.com/doudcr0tg/image/upload/v1782815342/Akshit_Sharma_Resume_eoigbu.png"
               className="group flex items-center justify-between rounded-2xl bg-gradient-to-br from-primary to-purple-accent p-5 text-primary-foreground transition-all hover:-translate-y-0.5"
             >
               <div className="flex items-center gap-4">
